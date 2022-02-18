@@ -2,6 +2,32 @@
   text-align: center;
 }
 
+.abc {
+  background-color: lightgray;
+}
+.container{
+  display: flex;
+}
+li:hover { 
+   background-color: blue;
+   /* font-size: large;  */
+   /* color: #61dafb; */
+}
+
+.align{
+  padding-inline: 12%;
+}
+
+a { 
+  position: relative;
+}
+a:active {
+  top: 5px;
+  background-color: blue;
+}
+/* li.active{
+  background-color: blue;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
